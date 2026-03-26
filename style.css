@@ -3,3 +3,16 @@
     margin: 0;
     padding: 10px;
 }
+body {
+    background-color: #aaa9a9;
+}
+h1 {
+    color: #333333;
+    font-size: 50px;
+    font-family: "Roboto Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+p {
+    color: #666666;
+    font-family: Tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+}
