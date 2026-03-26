@@ -256,3 +256,76 @@ main {
     color: #333;
     display: block;
 }
+ooter {
+    width: 100%;
+    background-color: #1a2368;
+    color: white;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+.footer-content {
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.github-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.github-link img {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0) invert(1);
+}
+
+.github-link:hover {
+    opacity: 0.8;
+}
+
+.footer-year {
+    font-size: 14px;
+}
+
+.course-link {
+    display: flex;
+    align-items: center;
+}
+
+.course-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.course-logo img {
+    width: 40px;
+    height: auto;
+    background-color: #1a2368;
+
+}
+
+.course-logo:hover {
+    opacity: 0.8;
+}
