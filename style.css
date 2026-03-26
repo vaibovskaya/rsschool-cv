@@ -36,3 +36,7 @@ nav {
     font-weight: 500;
     transition: color 0.3s ease;
 }
+.nav-menu li a:hover {
+    color: #8f111e;
+    text-decoration: underline;
+}
