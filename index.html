@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>CV-Anastasia Brankovskaya</title>
+</head>
+<body>
+    <header>
+    <nav>
+        <ul class="nav-menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#code">Code Example</a></li>
+            <li><a href="#education">Education</a></li>
+        </ul>
+    </nav>
+</header>
+    <main>
+    <div class="container">
+        <div class="container-left">
+            <div class="photo">
+                <img src="photo.jpg" alt="photo">
+            </div>
+            <div class="info">
+                <div class="about-me" id="about">
+                    <h2>About me</h2>
+                    <p>I'm an aspiring Frontend Developer currently learning JavaScript. I am passionate about building user-friendly interfaces and bringing ideas to life in the browser. I enjoy solving problems and am building a foundation in HTML, CSS, and JavaScript to create engaging web experiences.</p>
+                </div>
+                <div class="contact-info">
+                    <h2>Contact info</h2>
+                    <ul class="contact-list">
+                        <li class="contact-line">
+                            <img src="phone.svg" alt="phone">
+                            <p>+ 375 33 642 33 60</p>
+                        </li>
+                        <li class="contact-line">
+                            <img src="mail.svg" alt="mail">
+                            <p>abrankovskaya@gmail.com</p>
+                        </li>
+                        <li class="contact-line">
+                            <img src="telegram.svg" alt="telegram">
+                            <a href="https://t.me/abrankovsk">@abrankovsk</a>
+                        </li>
+                        <li class="contact-line">
+                            <img src="linkedin.svg" alt="linkedin">
+                            <a href="https://www.linkedin.com/in/anastasia-brankovskaya-7b95843a9/">LinkedIn</a>
+                        </li>
+                        <li class="contact-line">
+                            <img src="github.svg" alt="github">
+                            <a href="https://github.com/vaibovskaya">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="languages">
+                    <h2>Languages</h2>
+                    <ul>
+                        <li>Russian - Native</li>
+                        <li>English - B1 (in progress)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-right">
+            <div class="name">
+                <h1>Anastasia Brankovskaya</h1>
+                <p>Front-end Developer</p>
+            </div>
+            <div class="education" id="education">
+                <h2>Education</h2>
+                <ol>
+                    <li>University: Belarusian State University of Informatics and Radioelectronics (programmer-economist)</li>
+                    <li>Courses:
+                        <ul>
+                            <li><a href="https://htmlacademy.ru/study">HTML Academy</a></li>
+                            <li><a href="https://codebasics.io/resources">Code Basics (in progress)</a></li>
+                            <li><a href="https://app.rs.school/course/schedule?course=js-fe-preschool-2026q1">Schools Course "Course Statistics JS/FE Pre-School 2026 Q1" (in progress)</a> </li>
+                            <li><a href="https://www.figma.com/design/I739w8LOjhafRvxvfuGgDh/%D1%8D%D0%B11?node-id=0-1&t=pYxPhuOXvZDof5Nu-1">Website layout project</a></li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+            <div class="skills" id="skills">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skills-category">
+                        <h3>Hard Skills</h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript Basics</li>
+                            <li>Figma</li>
+                        </ul>
+                    </div>
+                    <div class="skills-category">
+                        <h3>Tools & Editors</h3>
+                        <ul>
+                            <li>WebStorm</li>
+                            <li>VS Code</li>
+                            <li>IntelliJ IDEA</li>
+                            <li>Adobe Photoshop</li>
+                            <li>CorelDRAW</li>
+                            <li>Adobe Illustrator</li>
+                        </ul>
+                    </div>
+                    <div class="skills-category">
+                        <h3>Soft Skills</h3>
+                        <ul>
+                            <li>Communication</li>
+                            <li>Problem solving</li>
+                            <li>Teamwork</li>
+                            <li>Time Management</li>
+                            <li>Adaptability</li>
+                            <li>Attention to detail</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="code-example" id="code">
+                <h2>Code Example</h2>
+                <div class="code-block">
+                    <div class="code-header">
+                        <span class="code-title">Create a function that returns the sum of the two lowest positive numbers given an array of minimum 4 positive integers. No floats or non-positive integers will be passed.</span>
+                        <span class="code-language">JavaScript</span>
+                    </div>
+                    <pre><code>
+function sumTwoSmallestNumbers(numbers) {
+    const sort = numbers.sort((a, b) => a - b);
+    return sort[0] + sort[1];
+}
+
+// Example usage:
+console.log(sumTwoSmallestNumbers([5, 8, 12, 19, 22])); // 13
+console.log(sumTwoSmallestNumbers([15, 28, 4, 2, 43])); // 6
+                        </code></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+    <footer>
+    <div class="footer-content">
+        <div class="footer-links">
+            <a href="https://github.com/vaibovskaya" class="github-link">
+                <img src="github.svg" alt="GitHub">
+                Anastasia Brankovskaya
+            </a>
+            <span class="footer-year">© 2026</span>
+        </div>
+        <div class="course-link">
+            <a href="https://rs.school/courses/javascript-ru" target="_blank" class="course-logo">
+                <img src="rs-school-logo.svg" alt="RS School Course">
+                RS School Course
+            </a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
