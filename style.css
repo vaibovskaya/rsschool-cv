@@ -263,6 +263,7 @@ footer {
     color: white;
     padding: 20px 0;
     margin-top: auto;
+    align-self: stretch;
 }
 
 .footer-content {
