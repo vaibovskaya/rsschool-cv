@@ -1,18 +1,12 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 10px;
-}
 body {
-    background-color: #aaa9a9;
-}
-h1 {
-    color: #333333;
-    font-size: 45px;
-    font-family: "Roboto Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-p {
-    color: #666666;
-    font-family: Tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    background: #7a7faa;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
 }
